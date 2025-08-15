@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Rechercher sur GitHub",
+  "version": "1.0",
+  "description": "Ajoute une option 'Rechercher sur GitHub' dans le menu contextuel.",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
